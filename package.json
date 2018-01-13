@@ -1,0 +1,25 @@
+{
+  "name": "pusher-active-connections",
+  "version": "1.0.0",
+  "description": "An example REST API app that returns active websocket connections for Pusher channels.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Veitch",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.6.0",
+    "body-parser": "1.18.2",
+    "dotenv": "4.0.0",
+    "express": "4.15.2",
+    "pusher": "1.5.1",
+    "serve-favicon": "2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "4.13.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  }
+}
